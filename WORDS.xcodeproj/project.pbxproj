@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35315D75862EF83F99B85D74 /* Pods_WORDS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5FD1B9388B0F609CD5DAD6 /* Pods_WORDS.framework */; };
 		AB9CFAFF24B85B3100C56036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CFAFE24B85B3100C56036 /* AppDelegate.swift */; };
 		AB9CFB0124B85B3100C56036 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CFB0024B85B3100C56036 /* SceneDelegate.swift */; };
-		AB9CFB0324B85B3100C56036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CFB0224B85B3100C56036 /* ViewController.swift */; };
+		AB9CFB0324B85B3100C56036 /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CFB0224B85B3100C56036 /* WordList.swift */; };
 		AB9CFB0624B85B3100C56036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9CFB0424B85B3100C56036 /* Main.storyboard */; };
 		AB9CFB0824B85B3F00C56036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9CFB0724B85B3F00C56036 /* Assets.xcassets */; };
 		AB9CFB0B24B85B3F00C56036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9CFB0924B85B3F00C56036 /* LaunchScreen.storyboard */; };
+		AB9CFB1C24B8670A00C56036 /* WordList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9CFB1B24B8670A00C56036 /* WordList.storyboard */; };
+		AB9CFB2524B87E6D00C56036 /* AddWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CFB2424B87E6D00C56036 /* AddWord.swift */; };
+		AB9CFB2724B87EE900C56036 /* AddWord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9CFB2624B87EE900C56036 /* AddWord.storyboard */; };
+		AB9CFB2924B9EB5D00C56036 /* word.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CFB2824B9EB5D00C56036 /* word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02EEB8F0578B2E0D0E2B3FA5 /* Pods-WORDS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WORDS.release.xcconfig"; path = "Target Support Files/Pods-WORDS/Pods-WORDS.release.xcconfig"; sourceTree = "<group>"; };
+		2B5FD1B9388B0F609CD5DAD6 /* Pods_WORDS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WORDS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF112CE0DB7562C2D3389AE /* Pods-WORDS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WORDS.debug.xcconfig"; path = "Target Support Files/Pods-WORDS/Pods-WORDS.debug.xcconfig"; sourceTree = "<group>"; };
 		AB9CFAFB24B85B3100C56036 /* WORDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WORDS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9CFAFE24B85B3100C56036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB9CFB0024B85B3100C56036 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB9CFB0224B85B3100C56036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB9CFB0224B85B3100C56036 /* WordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordList.swift; sourceTree = "<group>"; };
 		AB9CFB0524B85B3100C56036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB9CFB0724B85B3F00C56036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB9CFB0A24B85B3F00C56036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB9CFB0C24B85B3F00C56036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB9CFB1B24B8670A00C56036 /* WordList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WordList.storyboard; sourceTree = "<group>"; };
+		AB9CFB2424B87E6D00C56036 /* AddWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWord.swift; sourceTree = "<group>"; };
+		AB9CFB2624B87EE900C56036 /* AddWord.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddWord.storyboard; sourceTree = "<group>"; };
+		AB9CFB2824B9EB5D00C56036 /* word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = word.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35315D75862EF83F99B85D74 /* Pods_WORDS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20E05C7F072FB6B326D6F600 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B5FD1B9388B0F609CD5DAD6 /* Pods_WORDS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AB9CFAF224B85B3100C56036 = {
 			isa = PBXGroup;
 			children = (
 				AB9CFAFD24B85B3100C56036 /* WORDS */,
 				AB9CFAFC24B85B3100C56036 /* Products */,
+				DE4E312947659D7ED85693A3 /* Pods */,
+				20E05C7F072FB6B326D6F600 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,133 @@
 		AB9CFAFD24B85B3100C56036 /* WORDS */ = {
 			isa = PBXGroup;
 			children = (
-				AB9CFAFE24B85B3100C56036 /* AppDelegate.swift */,
-				AB9CFB0024B85B3100C56036 /* SceneDelegate.swift */,
-				AB9CFB0224B85B3100C56036 /* ViewController.swift */,
-				AB9CFB0424B85B3100C56036 /* Main.storyboard */,
-				AB9CFB0724B85B3F00C56036 /* Assets.xcassets */,
-				AB9CFB0924B85B3F00C56036 /* LaunchScreen.storyboard */,
-				AB9CFB0C24B85B3F00C56036 /* Info.plist */,
+				AB9CFB1624B860D000C56036 /* Application */,
+				AB9CFB1A24B8666000C56036 /* WordList */,
+				AB9CFB1F24B878EC00C56036 /* AddWord */,
+				AB9CFB1524B85DBA00C56036 /* Resources */,
 			);
 			path = WORDS;
+			sourceTree = "<group>";
+		};
+		AB9CFB1224B85D5500C56036 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB9CFB1324B85D6200C56036 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CFB1B24B8670A00C56036 /* WordList.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB9CFB1424B85D7000C56036 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CFB0224B85B3100C56036 /* WordList.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB9CFB1524B85DBA00C56036 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CFB0724B85B3F00C56036 /* Assets.xcassets */,
+				AB9CFB0C24B85B3F00C56036 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AB9CFB1624B860D000C56036 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CFB1924B860F200C56036 /* Model */,
+				AB9CFB1824B860EB00C56036 /* View */,
+				AB9CFB1724B860DE00C56036 /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AB9CFB1724B860DE00C56036 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CFB0024B85B3100C56036 /* SceneDelegate.swift */,
+				AB9CFAFE24B85B3100C56036 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB9CFB1824B860EB00C56036 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CFB0424B85B3100C56036 /* Main.storyboard */,
+				AB9CFB0924B85B3F00C56036 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB9CFB1924B860F200C56036 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB9CFB1A24B8666000C56036 /* WordList */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CFB1224B85D5500C56036 /* Model */,
+				AB9CFB1324B85D6200C56036 /* View */,
+				AB9CFB1424B85D7000C56036 /* Controller */,
+			);
+			path = WordList;
+			sourceTree = "<group>";
+		};
+		AB9CFB1F24B878EC00C56036 /* AddWord */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CFB2224B8793C00C56036 /* Model */,
+				AB9CFB2124B8793500C56036 /* View */,
+				AB9CFB2324B87D6E00C56036 /* Controller */,
+			);
+			path = AddWord;
+			sourceTree = "<group>";
+		};
+		AB9CFB2124B8793500C56036 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CFB2624B87EE900C56036 /* AddWord.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB9CFB2224B8793C00C56036 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CFB2824B9EB5D00C56036 /* word.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB9CFB2324B87D6E00C56036 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CFB2424B87E6D00C56036 /* AddWord.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE4E312947659D7ED85693A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FF112CE0DB7562C2D3389AE /* Pods-WORDS.debug.xcconfig */,
+				02EEB8F0578B2E0D0E2B3FA5 /* Pods-WORDS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB9CFB0F24B85B3F00C56036 /* Build configuration list for PBXNativeTarget "WORDS" */;
 			buildPhases = (
+				1823EC85082927E6F8406591 /* [CP] Check Pods Manifest.lock */,
 				AB9CFAF724B85B3100C56036 /* Sources */,
 				AB9CFAF824B85B3100C56036 /* Frameworks */,
 				AB9CFAF924B85B3100C56036 /* Resources */,
+				8D0D15E1C0FA9D8A16A4A07F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +270,66 @@
 			files = (
 				AB9CFB0B24B85B3F00C56036 /* LaunchScreen.storyboard in Resources */,
 				AB9CFB0824B85B3F00C56036 /* Assets.xcassets in Resources */,
+				AB9CFB2724B87EE900C56036 /* AddWord.storyboard in Resources */,
+				AB9CFB1C24B8670A00C56036 /* WordList.storyboard in Resources */,
 				AB9CFB0624B85B3100C56036 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1823EC85082927E6F8406591 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WORDS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D0D15E1C0FA9D8A16A4A07F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WORDS/Pods-WORDS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WORDS/Pods-WORDS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WORDS/Pods-WORDS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB9CFAF724B85B3100C56036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB9CFB0324B85B3100C56036 /* ViewController.swift in Sources */,
+				AB9CFB0324B85B3100C56036 /* WordList.swift in Sources */,
+				AB9CFB2524B87E6D00C56036 /* AddWord.swift in Sources */,
 				AB9CFAFF24B85B3100C56036 /* AppDelegate.swift in Sources */,
 				AB9CFB0124B85B3100C56036 /* SceneDelegate.swift in Sources */,
+				AB9CFB2924B9EB5D00C56036 /* word.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +471,12 @@
 		};
 		AB9CFB1024B85B3F00C56036 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF112CE0DB7562C2D3389AE /* Pods-WORDS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WORDS/Info.plist;
+				INFOPLIST_FILE = WORDS/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,16 +484,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Petro.WORDS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AB9CFB1124B85B3F00C56036 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02EEB8F0578B2E0D0E2B3FA5 /* Pods-WORDS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WORDS/Info.plist;
+				INFOPLIST_FILE = WORDS/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +503,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Petro.WORDS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

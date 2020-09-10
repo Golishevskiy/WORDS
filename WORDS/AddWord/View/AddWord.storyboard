@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Add Word-->
+        <scene sceneID="5k9-zX-gN2">
+            <objects>
+                <viewController storyboardIdentifier="AddWordID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PKt-TM-e8d" customClass="AddWord" customModule="WORDS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2mR-02-sm9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Another language" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lqD-xg-vX1">
+                                <rect key="frame" x="20" y="270" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="transliteTextFieldAction:" destination="PKt-TM-e8d" eventType="editingDidEnd" id="ba0-ho-S7i"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your language" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U1z-rY-8xC">
+                                <rect key="frame" x="20" y="196" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="wordTextFieldAction:" destination="PKt-TM-e8d" eventType="editingDidEnd" id="WJ7-sY-q2Z"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNs-mr-XdT">
+                                <rect key="frame" x="20" y="454" width="374" height="34"/>
+                                <color key="backgroundColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="SAVE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveButton:" destination="PKt-TM-e8d" eventType="touchUpInside" id="KLu-od-Gu8"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QFd-mz-JCc">
+                                <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                                <items>
+                                    <navigationItem title="New word" id="dbf-bY-hkY"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="QFd-mz-JCc" firstAttribute="leading" secondItem="435-Yw-FFf" secondAttribute="leading" id="7Fe-bu-JE9"/>
+                            <constraint firstItem="lqD-xg-vX1" firstAttribute="leading" secondItem="435-Yw-FFf" secondAttribute="leading" constant="20" id="Cc4-sG-diE"/>
+                            <constraint firstItem="U1z-rY-8xC" firstAttribute="leading" secondItem="435-Yw-FFf" secondAttribute="leading" constant="20" id="Ika-lc-mgF"/>
+                            <constraint firstItem="QFd-mz-JCc" firstAttribute="trailing" secondItem="435-Yw-FFf" secondAttribute="trailing" id="Os6-Gl-XC8"/>
+                            <constraint firstItem="NNs-mr-XdT" firstAttribute="top" secondItem="lqD-xg-vX1" secondAttribute="bottom" constant="150" id="R2y-K7-zDh"/>
+                            <constraint firstItem="NNs-mr-XdT" firstAttribute="leading" secondItem="435-Yw-FFf" secondAttribute="leading" constant="20" id="SMo-tP-0z1"/>
+                            <constraint firstItem="lqD-xg-vX1" firstAttribute="top" secondItem="U1z-rY-8xC" secondAttribute="bottom" constant="40" id="b4x-X3-hdS"/>
+                            <constraint firstItem="435-Yw-FFf" firstAttribute="trailing" secondItem="NNs-mr-XdT" secondAttribute="trailing" constant="20" id="d0F-Gg-jXq"/>
+                            <constraint firstItem="QFd-mz-JCc" firstAttribute="top" secondItem="435-Yw-FFf" secondAttribute="top" id="new-5B-An4"/>
+                            <constraint firstItem="435-Yw-FFf" firstAttribute="trailing" secondItem="lqD-xg-vX1" secondAttribute="trailing" constant="20" id="qyx-oz-beQ"/>
+                            <constraint firstItem="435-Yw-FFf" firstAttribute="trailing" secondItem="U1z-rY-8xC" secondAttribute="trailing" constant="20" id="vja-7J-YZK"/>
+                            <constraint firstItem="U1z-rY-8xC" firstAttribute="top" secondItem="QFd-mz-JCc" secondAttribute="bottom" constant="56" id="xy3-Zv-qbA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="435-Yw-FFf"/>
+                    </view>
+                    <connections>
+                        <outlet property="navBar" destination="dbf-bY-hkY" id="aTD-Ou-Uu7"/>
+                        <outlet property="saveButton" destination="NNs-mr-XdT" id="dAN-NU-n5m"/>
+                        <outlet property="transliteTextField" destination="lqD-xg-vX1" id="QIV-RB-lqi"/>
+                        <outlet property="wordTextField" destination="U1z-rY-8xC" id="EkG-re-kYS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zCV-xy-H5A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-604.34782608695662" y="-267.1875"/>
+        </scene>
+    </scenes>
+</document>
